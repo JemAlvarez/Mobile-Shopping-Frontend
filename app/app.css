@@ -1,0 +1,348 @@
+.none {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: red;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9
+}
+
+.bottom-spacing {
+    margin-bottom: 80px
+}
+
+.reset {
+    margin: 0;
+    padding: 0
+}
+
+.active {
+    color: #47d8bb !important
+}
+
+.wrapper {
+    margin-left: 35px;
+    margin-right: 35px
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+nav div {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center
+}
+
+nav div a.nav-item {
+    margin-left: 6%;
+    margin-right: 6%;
+    line-height: 50px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #333
+}
+
+nav div a.nav-item:hover {
+    color: #47d8bb
+}
+
+.big-heading {
+    margin: 0;
+    padding: 60px 0 30px 0;
+    font-family: Roboto, sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #333
+}
+
+.e-row {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%
+}
+
+.buttons {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 110px
+}
+
+.buttons #motors {
+    display: table;
+    color: #f9f9f9;
+    border-radius: 5px;
+    background-color: #e28888;
+    height: 100%;
+    width: 95%;
+    margin: 0;
+    font-size: 0.8em
+}
+
+.buttons #motors:hover {
+    background-color: #b56d6d
+}
+
+.buttons #motors a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #f9f9f9;
+    text-decoration: none
+}
+
+.buttons #classified {
+    display: table;
+    color: #f9f9f9;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    background-color: #88e2a0;
+    height: 48.2%;
+    width: 95%;
+    margin-left: 5%;
+    font-size: 0.8em
+}
+
+.buttons #classified:hover {
+    background-color: #7acb90
+}
+
+.buttons #classified a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #f9f9f9;
+    text-decoration: none
+}
+
+.buttons #services {
+    display: table;
+    color: #f9f9f9;
+    border-radius: 5px;
+    background-color: #e58a49;
+    height: 48.2%;
+    width: 95%;
+    margin-left: 5%;
+    font-size: 0.8em
+}
+
+.buttons #services:hover {
+    background-color: #ce7c42
+}
+
+.buttons #services a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #f9f9f9;
+    text-decoration: none
+}
+
+.buttons #properties {
+    display: table;
+    color: #f9f9f9;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    background-color: #88d9e2;
+    height: 48.2%;
+    width: 95%;
+    margin-left: 5%;
+    font-size: 0.8em
+}
+
+.buttons #properties:hover {
+    background-color: #7ac3cb
+}
+
+.buttons #properties a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #f9f9f9;
+    text-decoration: none
+}
+
+.buttons #jobs {
+    display: table;
+    color: #f9f9f9;
+    border-radius: 5px;
+    background-color: #e8a87a;
+    height: 48.2%;
+    width: 95%;
+    margin-left: 5%;
+    font-size: 0.8em
+}
+
+.buttons #jobs:hover {
+    background-color: #d1976e
+}
+
+.buttons #jobs a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #f9f9f9;
+    text-decoration: none
+}
+
+.section {
+    width: 100%;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    margin-top: 30px
+}
+
+.section .headings {
+    display: inline
+}
+
+.section .headings h6 {
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 700
+}
+
+.section .headings .view-all {
+    float: right;
+    color: #47d8bb;
+    text-decoration: none;
+    margin-bottom: 10px
+}
+
+.section .headings .view-all:hover {
+    color: #40c2a8
+}
+
+.section .img-wrapper {
+    width: 100%;
+    display: inline-block
+}
+
+.section .img-wrapper .img {
+    width: 28.3%;
+    float: left;
+    margin-left: 7%
+}
+
+.section .img-wrapper .img:nth-child(1) {
+    margin: 0
+}
+
+.section .img-wrapper .img .img-small {
+    width: 100%;
+    height: 80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: cover
+}
+
+.section .img-wrapper .img .caption {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #f2f2f2;
+    -webkit-box-shadow: 2px 2px 15px -1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 2px 2px 15px -1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 15px -1px rgba(0, 0, 0, 0.2)
+}
+
+.section .img-wrapper .img .caption a {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 0.9em;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    color: #333;
+    text-decoration: none
+}
+
+@media only screen and (min-width: 411px) {
+    #classified {
+        margin-bottom: 3.5% !important;
+        height: 48.5% !important
+    }
+
+    #properties {
+        margin-bottom: 3.5% !important;
+        height: 48.5% !important
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #classified {
+        margin-bottom: 2.3% !important;
+        height: 48.5% !important
+    }
+
+    #properties {
+        margin-bottom: 2.3% !important;
+        height: 48.5% !important
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #classified {
+        margin-bottom: 2% !important;
+        height: 48.1% !important
+    }
+
+    #properties {
+        margin-bottom: 2% !important;
+        height: 48.1% !important
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #classified {
+        margin-bottom: 2% !important;
+        height: 48% !important
+    }
+
+    #properties {
+        margin-bottom: 2% !important;
+        height: 48% !important
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    #classified {
+        margin-bottom: 1% !important;
+        height: 48% !important
+    }
+
+    #properties {
+        margin-bottom: 1% !important;
+        height: 48% !important
+    }
+}
